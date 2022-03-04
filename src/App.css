@@ -1,0 +1,39 @@
+/* for main page heading */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono,wght@1,600&display=swap");
+/* for subheadings */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+/* for the welcome heading */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* for the signature */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+.main-page-image:hover {
+  animation: scale 200ms ease-in-out 0s forwards;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+
+.animateme:hover {
+  animation: scale 200ms ease-in-out 0s forwards;
+}
+
+@keyframes scale {
+  0% {
+    opacity: 0.2;
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 1;
+
+  }
+}
+
